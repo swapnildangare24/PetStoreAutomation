@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 12.273 s <<< FAILURE! - in TestSuite
+api.test.UserTests.testPostUser  Time elapsed: 4.349 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [405]
+	at api.test.UserTests.testPostUser(UserTests.java:40)
+
+api.test.UserTests.testDeleteUserByName  Time elapsed: 3.722 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [405]
+	at api.test.UserTests.testDeleteUserByName(UserTests.java:79)
+
